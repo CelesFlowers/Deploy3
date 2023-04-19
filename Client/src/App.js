@@ -8,6 +8,8 @@ import ProfileRender from "./components/Profile/ProfileRender";
 // import LoginRender from "./components/Login/LoginRender";
 import ShoppingCart from './components/ShoppingCart/shoppingcart'
 import { ShoppingCartProvider } from "./components/ShoppingCart/ShoppingCartContext";
+import axios from 'axios';
+axios.defaults.baseURL = 'https://deploy2-production-a014.up.railway.app';
 
 function App() {
   return (
